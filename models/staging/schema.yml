@@ -8,8 +8,13 @@ sources:
       tables:
         - name: external_green_tripdata_partitoned_week3
         - name: external_yellow_tripdata_partitoned_week3
+        - name: fhv_non_partitoned
 
 models:
+    - name: fhv_non_partitoned
+      description: >
+        Trips made by for hire vehicles.
+        
     - name: stg_green_tripdata
       description: >
         Trip made by green taxis, also known as boro taxis and street-hail liveries.
